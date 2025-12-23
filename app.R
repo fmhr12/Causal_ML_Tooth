@@ -109,7 +109,7 @@ ui <- fluidPage(
     ),
     
     mainPanel(
-      h3("Pre-radiotherapy Tooth Extraction Effect on ORN Risk"), 
+      h3("Pre-radiotherapy Extraction Effect on Osteoradionecrosis Risk"), 
       uiOutput("result_panel")
     )
   )
