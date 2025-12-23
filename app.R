@@ -26,7 +26,7 @@ defaults <- list(
   RT_Fx                          = 30,
   Duration_RT_Days               = 40,
   RT_Dose                        = 60,
-  Income_1000                    = 600,
+  Income_1000                    = 60,
   D10cc                          = 65
 )
 
