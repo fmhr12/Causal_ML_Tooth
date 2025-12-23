@@ -21,12 +21,12 @@ cont_vars    <- deploy_data$cont_vars
 defaults <- list(
   Age                            = 60,
   Smoking_Pack_per_Year          = 0,
-  DMFS                           = 40,
+  DMFS                           = 30,
   Number_Teeth_before_Extraction = 24,
   RT_Fx                          = 30,
   Duration_RT_Days               = 40,
   RT_Dose                        = 60,
-  Income_1000                    = 50,
+  Income_1000                    = 600,
   D10cc                          = 65
 )
 
@@ -68,12 +68,12 @@ ui_config <- list(
   Drinking_History_Merged = list(choices = c("Never (Non-drinker)" = "0", "Previous (Ex-drinker)" = "1", "Current" = "2"), selected = "0"),
   TNM_Staging_Merged_2 = list(choices = c("I-II" = "1", "III-IV" = "2"), selected = "2"),
   Primary_Treatment_Modality = list(choices = c("Surgery" = "0", "Radiotherapy" = "1"), selected = "1"),
-  Insurance_Type = list(choices = c("Self-Pay" = "0", "Private" = "1", "Public" = "2"), selected = "1"),
+  Insurance_Type = list(choices = c("Self-Pay" = "0", "Private" = "1", "Public" = "2"), selected = "2"),
   Periodontal_Grading_Merged = list(choices = c("Grade 0" = "0", "Grade I-II" = "1", "Grade III-IV" = "2"), selected = "2"),
-  HPV = list(choices = c("Negative" = "0", "Not tested" = "1", "Positive" = "2"), selected = "1"),
+  HPV = list(choices = c("Negative" = "0", "Not tested" = "1", "Positive" = "2"), selected = "0"),
   Disease_Site_Merged_2 = list(choices = c("Others" = "0", "Oropharynx" = "1", "Oral Cavity" = "2"), selected = "2"),
   Histological_Diagnosis = list(choices = c("Non-SCC" = "0", "SCC" = "1"), selected = "1"),
-  Chemotherapy = list(choices = c("No" = "0", "Yes" = "1"), selected = "1")
+  Chemotherapy = list(choices = c("No" = "0", "Yes" = "1"), selected = "0")
 )
 
 # ==============================================================================
